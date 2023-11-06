@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+  int PrimeiroNumero = 0;    
+  int segundoNumero = 0;    
+  int Maior = 0;
+  int Menor = 0;
+   
+    printf("Digite um número:");
+    scanf("%i",&PrimeiroNumero);
+    
+    printf("Digite o segundo número:");
+    scanf("%i",&segundoNumero);
+    
+    Maior = PrimeiroNumero > segundoNumero? PrimeiroNumero : segundoNumero;
+    Menor = PrimeiroNumero < segundoNumero? PrimeiroNumero : segundoNumero;
+
+printf("Maior Numero: %i \n",Maior);
+printf("Menor Numero: %i \n",Menor);
+
+return 0;
+}
